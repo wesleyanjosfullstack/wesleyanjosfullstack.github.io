@@ -20,6 +20,14 @@
     color: var(--main-color);
 }
 
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-just {
+    text-align: justify;
+}
+
 #container {
     display: flex;
     flex-direction: row;
@@ -37,7 +45,7 @@
 
 #about-container {
     flex: 1 1 80%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--about-bg-color);
     padding: 50px;
 }
@@ -54,7 +62,7 @@
     font-weight: bold;
 }
 
-#bio-imgage {
+#bio-image {
     width: 175px;
     height: 175px;
     border-radius: 50%;
@@ -75,7 +83,7 @@
     max-width: 60px;
 }
 
-#social-containe li a {
+#social-container li a {
     color: var(--main-color);
     font-size: 30px;
 }
@@ -225,5 +233,9 @@
 
     .skills-box img {
         width: 60px;
+    }
+
+    .skills-title {
+        word-wrap: break-word;
     }
 }
