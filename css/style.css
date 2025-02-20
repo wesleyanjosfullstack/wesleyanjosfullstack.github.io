@@ -2,4 +2,20 @@
 
 * {
     font-family: "Roboto", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #35b689;
+    --main-text-color: #fff;
+    --border-color: #999;
+    --bio-bg-color: #1e2a3a;
+    --bio-border-color: #293544;
+    --about-bg-color: #111821;
+}
+
+.highlight {
+    color: var(--main-color);
 }
