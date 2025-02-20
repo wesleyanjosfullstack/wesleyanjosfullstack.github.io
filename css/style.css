@@ -14,7 +14,6 @@
     --bio-bg-color: #1e2a3a;
     --bio-bg-color: #000;
     --bio-border-color: #293544;
-    /* --about-bg-color: #111821; */
     --about-bg-color: #000000ee;
 }
 
@@ -198,6 +197,7 @@
     font-weight: bold;
     padding-left: 10px;
     border-left: 5px solid var(--main-color);
+    word-wrap: break-word;
 }
 
 .skills-box img {
@@ -206,6 +206,7 @@
 }
 
 @media(max-width: 450px) {
+
     #container {
         flex-direction: column;
     }
@@ -251,7 +252,4 @@
         width: 60px;
     }
 
-    .skills-title {
-        word-wrap: break-word;
-    }
 }
